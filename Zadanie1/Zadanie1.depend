@@ -1,28 +1,36 @@
 # depslib dependency file v1.0
-1479215573 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\main.cpp
+1479222527 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\main.cpp
 	<iostream>
 	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CTable.h"
-	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CMng.h"
+	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CManage.h"
+	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CManger.h"
 
-1479215271 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\src\ctable.cpp
+1479220423 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\src\ctable.cpp
 	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CTable.h"
 
 1479213369 c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\include\ctable.h
 	<string>
 	<iostream>
 
-1479211916 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\src\cmanage.cpp
+1479220618 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\src\cmanage.cpp
 	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CManage.h"
 
 1479209650 c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\include\cmanage.h
 	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CTable.h"
 	<list>
 
-1479213605 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\src\cmng.cpp
+1479220423 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\src\cmng.cpp
 	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CMng.h"
 
 1479213367 c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\include\cmng.h
 	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CTable.h"
 	<list>
+	<vector>
+
+1479225603 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\src\cmanger.cpp
+	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CManger.h"
+
+1479224355 c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\include\cmanger.h
+	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CTable.h"
 	<vector>
 
