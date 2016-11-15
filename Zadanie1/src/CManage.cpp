@@ -3,6 +3,8 @@
 CManage::CManage()
 {
     c_Table_Object = new CTable[5];
+
+
 }
 
 
@@ -16,7 +18,7 @@ CManage::CManage(const CManage& other)
     //copy ctor
 }
 
-
+/*
 CTable * CManage::vCreate(int i_TableQuantity)
 {
     c_Table_Object = new CTable [i_TableQuantity];
@@ -44,7 +46,7 @@ void CManage::vClone(int i_IndexElem)
 
   //      vAddElem(c_clone);
 
-    CTable aa = new CTable(*(c_Table_Object[i_IndexElem].c_getClass()));
+//    CTable aa = new CTable(*(c_Table_Object[i_IndexElem].c_getClass()));
 }
 void CManage::vAddElem(CTable & c_AddTable)
 {
@@ -75,3 +77,4 @@ void CManage::vSetSizeTable(int i_SizeTable, int i_New_size)
 {
        return i_actual_size;
 }
+*/

@@ -2,6 +2,7 @@
 #define CTABLE_H
 #include <string>
 #include <iostream>
+
 using namespace std;
 
 class CTable
@@ -11,7 +12,7 @@ class CTable
         CTable(string s_Name);
         CTable(const CTable& a);
         virtual ~CTable();
-        void vSetSizeTable(int i_SizeTable, int i_NewSize);
+        void vSetSizeTable(int i_NewSize);
         void vSetInTable(int i_Postion, int i_Value);
         int iGetFromTable(int i_Postion);
 

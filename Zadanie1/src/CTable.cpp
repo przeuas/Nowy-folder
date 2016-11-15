@@ -9,15 +9,17 @@ CTable::CTable()
    I_intTable = new int [i_START_ROZMIAR];
    const string s_DEFAULT_NAME = "JAN";
    vSetName(s_DEFAULT_NAME);
+   i_Actual_size = i_START_ROZMIAR;
 
 
-
-   cout<<"bezp: "<< sGetName();
+   cout<<"bezp--------------------: "<< sGetName();
 }
 
 CTable::CTable(string s_Name)
+
 {
-    CTable();
+
+    i_Actual_size = i_START_ROZMIAR;
     vSetName(s_Name);
     cout<<"parametr:  "<< sGetName();
 
@@ -41,12 +43,12 @@ CTable::~CTable()
 
 }
 
-void CTable::vSetSizeTable(int i_SizeTable, int i_New_size)
+void CTable::vSetSizeTable(int i_New_size)
 {
-    i_Actual_size = i_New_size;
+  //  i_Actual_size = i_New_size;
 
     int * i_TempTable = new int [i_New_size];
-    for(int i = 0; i< i_SizeTable; i++)
+    for(int i = 0; i< i_Actual_size; i++)
          i_TempTable[i]= I_intTable[i];
       // {
 
@@ -56,7 +58,7 @@ void CTable::vSetSizeTable(int i_SizeTable, int i_New_size)
       // }
     I_intTable = i_TempTable;
 
-    //cout<<"   to liczba "<<T[19];
+    cout<<"   to liczba "<<i_Actual_size;
 }//CTable::vSetSizeTable(int i_SizeTable, int i_New_size
 
 bool CTable::iProperSize(int i_SetIndex)
