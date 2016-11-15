@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1478981668 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\main.cpp
+	<iostream>
+	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CTable.h"
+
+1479025301 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\src\ctable.cpp
+	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CTable.h"
+
+1479026738 c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\include\ctable.h
+	<string>
+	<iostream>
+
+1479024995 source:c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\src\cmanage.cpp
+	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CManage.h"
+
+1478983647 c:\users\p\documents\[l]zawansowane metody programowania obiektowego\nowy folder\zadanie1\include\cmanage.h
+	"C:\Users\p\Documents\[L]zawansowane metody programowania obiektowego\Nowy folder\Zadanie1\include\CTable.h"
+
