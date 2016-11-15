@@ -22,6 +22,7 @@ class CManage
         int v;
     protected:
     private:
+    list<CTable> c_Table_list;
     CTable *c_Table_Object;
     int i_actual_size;
     static const  int i_DEFAULT_SIZE= 10;

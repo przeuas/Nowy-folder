@@ -14,7 +14,7 @@ class CTable
         void vSetSizeTable(int i_SizeTable, int i_NewSize);
         void vSetInTable(int i_Postion, int i_Value);
         int iGetFromTable(int i_Postion);
-        CTable & c_getClass();
+
 
         bool iProperSize(int i_Size);
         int iGetSize();

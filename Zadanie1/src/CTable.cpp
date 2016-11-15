@@ -40,11 +40,7 @@ CTable::~CTable()
     delete [] I_intTable;
 
 }
-CTable & CTable::c_getClass()
-{
 
-    return (this);
-}
 void CTable::vSetSizeTable(int i_SizeTable, int i_New_size)
 {
     i_Actual_size = i_New_size;
